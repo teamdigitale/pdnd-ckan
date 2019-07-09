@@ -5,7 +5,7 @@ services:
   ckan:
     build:
       context: ./
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     container_name: daf-ckan
     image: teamdigitale/daf-ckan
     environment:
